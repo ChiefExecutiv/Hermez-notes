@@ -1,0 +1,102 @@
+body {
+    display: grid;
+    place-items: center;
+}
+
+.table-container {
+    overflow: hidden;
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+    width: 90vw;
+    margin-top: 8rem;
+  }
+  
+  .my-table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .my-table th,
+  .my-table td {
+    border-bottom: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .my-table th {
+    background-color: #f2f2f2;
+    color: #4a4a4a;
+    font-weight: 500;
+    font-size: .8rem;
+  }
+  
+  .selected-row {
+    background-color: #e5e7eb; /* or any other color of your choice */
+  }
+
+  .checked-row {
+    background-color: #e5e7eb;
+  }
+  
+  .Input {
+    border: 1px solid hsl(214.3 31.8% 91.4%);
+    border-radius: 0.3rem;
+    height: 2rem;
+    background-color: #fff;
+    font-size: .99rem;
+  }
+
+  .Input:focus {
+    outline: none;
+    border: 1px solid #007bff;
+  }
+
+  .userDiv {
+    padding: .2rem;
+    display: flex;
+    gap: 1rem;
+  }
+
+  .priority-select {
+    padding: .2rem;
+    font-size: 14px;
+    border: 1px solid hsl(214.3 31.8% 91.4%);
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  /* Style the dropdown arrow */
+  .priority-select::after {
+    content: '\25BC'; /* Unicode character for down arrow */
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    pointer-events: none;
+  }
+  
+  /* Style on hover */
+  .priority-select:hover {
+    border-color: #888;
+  }
+  
+  /* Style when the dropdown is open */
+  .priority-select:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .dltBtn {
+    border: none;
+    border-radius: .2rem;
+    background: transparent;
+    box-shadow: none;
+    color: #535353;
+    transition: all .3s ease;
+    cursor: pointer;
+  }
+
+  .dltBtn:hover {
+    color: #ff7c6f;
+  }

@@ -1,0 +1,22 @@
+.Navs {
+    display: flex;
+    gap: 10px;
+}
+
+.Novel {
+    display: flex;
+    align-items: flex-start;
+    width: 80vw;
+    min-height: 80vh; 
+    border: 1px solid #cfcfcf;
+    border-radius: 8px;
+  }
+
+  .Editor {
+    box-sizing: border-box;
+    display: grid;
+    place-items: center;
+    margin-top: 2%;
+    border: none;
+}
+
