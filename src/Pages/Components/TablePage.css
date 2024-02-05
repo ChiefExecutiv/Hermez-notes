@@ -1,0 +1,4 @@
+.TablePage {
+    display: grid;
+    place-items: center;
+}

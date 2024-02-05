@@ -1,0 +1,18 @@
+.Notes_Page {
+    display: grid;
+    place-items: center;
+}
+
+.Header {
+    margin-bottom: 8rem;
+    display: flex;
+    gap: 2rem;
+}
+
+.Nav_Link {
+    color: #007bff;
+    background-color: #007bff25;
+    font-size: .8rem;
+    padding: 1px 8px;
+    border-radius: .2rem;
+}
